@@ -44,7 +44,7 @@ wordnik_api_key: your_api_key
 ## Example Standalone Usage
 
 ```ruby
-require 'wordnik'
+require 'wordniknik'
 client = Wordniknik::Client.new
 client.definitions('ruby').each do |definition|
   puts definition[:text]
