@@ -1,6 +1,6 @@
 # Wordniknik
 
-[![Ruby badge](https://github.com/willf/wordniknik/actions/workflows/ruby.yml/badge.svg)](https://github.com/willf/wordniknik/actions/workflows/ruby.yml)
+[![Ruby badge](https://github.com/willf/wordniknik/actions/workflows/ruby.yml/badge.svg)](https://github.com/willf/wordniknik/actions/workflows/ruby.yml) [![Gem Version](https://badge.fury.io/rb/wordniknik.svg)](https://badge.fury.io/rb/wordniknik)
 
 A Ruby wrapper for the Wordnik API
 
