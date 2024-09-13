@@ -1,8 +1,15 @@
 # Wordniknik
 
-TODO: Delete this and the text below, and describe your gem
+[![Ruby badge](https://github.com/willf/wordniknik/actions/workflows/ruby.yml/badge.svg)](https://github.com/willf/wordniknik/actions/workflows/ruby.yml)
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/wordniknik`. To experiment with that code, run `bin/console` for an interactive prompt.
+A Ruby wrapper for the Wordnik API
+
+## Description
+
+This is a Ruby wrapper for the Wordnik API. Wordnik is an online dictionary with
+an API for getting definitions, synonyms, antonyms, and more, as described it
+[developer.wordnik.com](https://developer.wordnik.com). This gem provides
+functions for the `word` and `words` endpoints of the API.
 
 ## Installation
 
