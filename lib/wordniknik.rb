@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_relative "wordniknik/version"
+require_relative 'wordniknik/version'
 
 module Wordniknik
   class Error < StandardError; end
