@@ -1,0 +1,57 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.wordnik.com/v4/word.json/happy/relatedWords?api_key=API_KEY&limitPerRelationshipType=10&relationshipTypes=equivalent
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.11.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Fri, 13 Sep 2024 15:23:39 GMT
+      content-type:
+      - application/json; charset=utf-8
+      transfer-encoding:
+      - chunked
+      connection:
+      - keep-alive
+      server:
+      - nginx/1.24.0
+      x-ratelimit-remaining-minute:
+      - '485'
+      x-ratelimit-limit-minute:
+      - '500'
+      x-ratelimit-limit-hour:
+      - '15000'
+      ratelimit-reset:
+      - '21'
+      ratelimit-remaining:
+      - '485'
+      ratelimit-limit:
+      - '500'
+      x-ratelimit-remaining-hour:
+      - '14981'
+      cache-control:
+      - no-cache
+      access-control-allow-origin:
+      - "*"
+      x-kong-upstream-latency:
+      - '9'
+      x-kong-proxy-latency:
+      - '1'
+      via:
+      - kong/3.4.1
+      content-encoding:
+      - gzip
+    body:
+      encoding: UTF-8
+      string: '[{"relationshipType":"equivalent","words":["blessed","blissful","bright","felicitous","fortunate","golden","halcyon","laughing","prosperous","riant"]}]'
+  recorded_at: Fri, 13 Sep 2024 15:23:39 GMT
+recorded_with: VCR 6.3.1

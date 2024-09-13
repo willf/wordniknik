@@ -1,0 +1,75 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.wordnik.com/v4/words.json/wordOfTheDay?api_key=API_KEY
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.11.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Fri, 13 Sep 2024 15:23:32 GMT
+      content-type:
+      - application/json; charset=utf-8
+      transfer-encoding:
+      - chunked
+      connection:
+      - keep-alive
+      server:
+      - nginx/1.24.0
+      x-ratelimit-remaining-hour:
+      - '14999'
+      x-ratelimit-limit-hour:
+      - '15000'
+      ratelimit-reset:
+      - '28'
+      ratelimit-remaining:
+      - '499'
+      ratelimit-limit:
+      - '500'
+      x-ratelimit-limit-minute:
+      - '500'
+      x-ratelimit-remaining-minute:
+      - '499'
+      cache-control:
+      - no-cache
+      vary:
+      - accept-encoding
+      content-encoding:
+      - gzip
+      access-control-allow-origin:
+      - "*"
+      x-kong-upstream-latency:
+      - '6'
+      x-kong-proxy-latency:
+      - '0'
+      via:
+      - kong/3.4.1
+    body:
+      encoding: UTF-8
+      string: '{"_id":"66d34cd910816e928365f9e2","word":"futurition","contentProvider":{"name":"wordnik","id":711},"definitions":[{"source":"century","text":"Future
+        existence or reality; prospective occurrence or realization.","note":null,"partOfSpeech":"noun"},{"source":"gcide","text":"The
+        state of being future; futurity.","note":null,"partOfSpeech":"noun"}],"publishDate":"2024-09-13T03:00:00.000Z","examples":[{"url":"http://www.ccel.org/ccel/owen/deathofdeath.txt","title":"The
+        Death of Death in the Death of Christ","text":"The consequence is good from
+        the divine purpose to the futurition of any thing, and the certainty of its
+        event, not to its actual existence.","id":1080899209},{"url":"http://www.gutenberg.org/dirs/2/8/1/0/28103/28103.txt","title":"The
+        Doctrines of Predestination, Reprobation, and Election","text":"Toplady says
+        \"that God foreknows futurities, because by His predestination He hath rendered
+        their futurition certain and inevitable.\"","id":1153760731},{"url":"http://www.ccel.org/ccel/bushnell/nurture.txt","title":"Christian
+        Nurture.","text":"And just so children are all men and women; and, if there
+        is any law of futurition in them to justify it, may be fitly classed as believing
+        men and women.","id":694680463},{"url":"http://www.ccel.org/ccel/south_robert/sermons01.txt","title":"Sermons
+        Preached Upon Several Occasions. Vol. I.","text":"Is it imaginable, that the
+        great means of the world''s redemption should rest only in the number of possibilities,
+        and hang so loose in respect of its futurition, as to leave the event in an
+        equal poise, whether ever there should be such a thing or no?","id":1076848133}],"pdd":"2024-09-13","note":"The
+        word ''futurition'' comes from a Latin word meaning ''future''.","htmlExtra":null}'
+  recorded_at: Fri, 13 Sep 2024 15:23:32 GMT
+recorded_with: VCR 6.3.1

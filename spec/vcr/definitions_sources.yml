@@ -1,0 +1,68 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.wordnik.com/v4/word.json/ruby/definitions?api_key=API_KEY&limit=200&sourceDictionaries=ahd-5
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.11.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Fri, 13 Sep 2024 15:23:33 GMT
+      content-type:
+      - application/json; charset=utf-8
+      transfer-encoding:
+      - chunked
+      connection:
+      - keep-alive
+      server:
+      - nginx/1.24.0
+      x-ratelimit-remaining-hour:
+      - '14997'
+      x-ratelimit-limit-hour:
+      - '15000'
+      ratelimit-reset:
+      - '27'
+      ratelimit-remaining:
+      - '497'
+      ratelimit-limit:
+      - '500'
+      x-ratelimit-limit-minute:
+      - '500'
+      x-ratelimit-remaining-minute:
+      - '497'
+      cache-control:
+      - no-cache
+      vary:
+      - accept-encoding
+      content-encoding:
+      - gzip
+      access-control-allow-origin:
+      - "*"
+      x-kong-upstream-latency:
+      - '9'
+      x-kong-proxy-latency:
+      - '0'
+      via:
+      - kong/3.4.1
+    body:
+      encoding: UTF-8
+      string: '[{"id":"R5365500-1","partOfSpeech":"noun","attributionText":"from The
+        American Heritage® Dictionary of the English Language, 5th Edition.","sourceDictionary":"ahd-5","text":"A
+        deep red, translucent variety of the mineral corundum, highly valued as a
+        precious stone.","sequence":"1","score":0,"word":"ruby","attributionUrl":"https://ahdictionary.com/","wordnikUrl":"https://www.wordnik.com/words/ruby","citations":[],"exampleUses":[],"labels":[],"notes":[],"relatedWords":[],"textProns":[]},{"id":"R5365500-2","partOfSpeech":"noun","attributionText":"from
+        The American Heritage® Dictionary of the English Language, 5th Edition.","sourceDictionary":"ahd-5","text":"Something,
+        such as a watch bearing, that is made from a ruby.","sequence":"2","score":0,"word":"ruby","attributionUrl":"https://ahdictionary.com/","wordnikUrl":"https://www.wordnik.com/words/ruby","citations":[],"exampleUses":[],"labels":[],"notes":[],"relatedWords":[],"textProns":[]},{"id":"R5365500-3","partOfSpeech":"noun","attributionText":"from
+        The American Heritage® Dictionary of the English Language, 5th Edition.","sourceDictionary":"ahd-5","text":"A
+        dark or deep red to deep purplish red.","sequence":"3","score":0,"word":"ruby","attributionUrl":"https://ahdictionary.com/","wordnikUrl":"https://www.wordnik.com/words/ruby","citations":[],"exampleUses":[],"labels":[],"notes":[],"relatedWords":[],"textProns":[]},{"id":"R5365500-4","partOfSpeech":"adjective","attributionText":"from
+        The American Heritage® Dictionary of the English Language, 5th Edition.","sourceDictionary":"ahd-5","text":"Of
+        the color ruby.","sequence":"4","score":0,"word":"ruby","attributionUrl":"https://ahdictionary.com/","wordnikUrl":"https://www.wordnik.com/words/ruby","citations":[],"exampleUses":[],"labels":[],"notes":[],"relatedWords":[],"textProns":[]}]'
+  recorded_at: Fri, 13 Sep 2024 15:23:33 GMT
+recorded_with: VCR 6.3.1

@@ -1,0 +1,62 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.wordnik.com/v4/word.json/ruby/relatedWords?api_key=API_KEY&limitPerRelationshipType=10
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.11.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Fri, 13 Sep 2024 15:23:34 GMT
+      content-type:
+      - application/json; charset=utf-8
+      transfer-encoding:
+      - chunked
+      connection:
+      - keep-alive
+      server:
+      - nginx/1.24.0
+      x-ratelimit-remaining-hour:
+      - '14996'
+      x-ratelimit-limit-hour:
+      - '15000'
+      ratelimit-reset:
+      - '26'
+      ratelimit-remaining:
+      - '496'
+      ratelimit-limit:
+      - '500'
+      x-ratelimit-limit-minute:
+      - '500'
+      x-ratelimit-remaining-minute:
+      - '496'
+      cache-control:
+      - no-cache
+      access-control-allow-origin:
+      - "*"
+      x-kong-upstream-latency:
+      - '10'
+      x-kong-proxy-latency:
+      - '1'
+      via:
+      - kong/3.4.1
+      content-encoding:
+      - gzip
+    body:
+      encoding: UTF-8
+      string: '[{"relationshipType":"cross-reference","words":["adelaide ruby","ancona
+        ruby","artificial ruby","brazilian ruby","cape ruby","cat''s-eye ruby","mont
+        blanc ruby","ruby arsenic","ruby of zinc","sulphur"]},{"relationshipType":"equivalent","words":["chromatic","ruby
+        of sulphur"]},{"relationshipType":"etymologically-related-term","words":["corundum"]},{"relationshipType":"form","words":["Colorado
+        ruby","balas ruby","rubasse","rubicund","rubied","rubious","rubying"]},{"relationshipType":"hypernym","words":["corundom","corundum","gem","jewel","precious
+        stone","red","redness","transparent gem"]},{"relationshipType":"rhyme","words":["Newby","Scooby","booby","looby"]},{"relationshipType":"same-context","words":["amber","azure","diamond","emerald","garnet","golden","ivory","jade","jeweled","opal"]},{"relationshipType":"synonym","words":["Titian","Titian-red","adamant","agate","agate","alexandrite","amethyst","aquamarine","beryl","bloodstone"]},{"relationshipType":"variant","words":["agate"]}]'
+  recorded_at: Fri, 13 Sep 2024 15:23:34 GMT
+recorded_with: VCR 6.3.1

@@ -1,0 +1,265 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.wordnik.com/v4/word.json/fish/definitions?api_key=API_KEY&limit=200&partOfSpeech=noun
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.11.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Fri, 13 Sep 2024 15:23:33 GMT
+      content-type:
+      - application/json; charset=utf-8
+      transfer-encoding:
+      - chunked
+      connection:
+      - keep-alive
+      server:
+      - nginx/1.24.0
+      x-ratelimit-remaining-minute:
+      - '497'
+      x-ratelimit-limit-minute:
+      - '500'
+      x-ratelimit-limit-hour:
+      - '15000'
+      ratelimit-reset:
+      - '27'
+      ratelimit-remaining:
+      - '497'
+      ratelimit-limit:
+      - '500'
+      x-ratelimit-remaining-hour:
+      - '14993'
+      cache-control:
+      - no-cache
+      vary:
+      - accept-encoding
+      content-encoding:
+      - gzip
+      access-control-allow-origin:
+      - "*"
+      x-kong-upstream-latency:
+      - '35'
+      x-kong-proxy-latency:
+      - '1'
+      via:
+      - kong/3.4.1
+    body:
+      encoding: UTF-8
+      string: '[{"id":"F5147800-1","partOfSpeech":"noun","attributionText":"from The
+        American Heritage® Dictionary of the English Language, 5th Edition.","sourceDictionary":"ahd-5","text":"Any
+        of numerous cold-blooded aquatic vertebrates characteristically having fins,
+        gills, and a streamlined body and including the bony fishes, such as catfishes
+        and tunas, and the cartilaginous fishes, such as sharks and rays.","sequence":"1","score":0,"word":"fish","attributionUrl":"https://ahdictionary.com/","wordnikUrl":"https://www.wordnik.com/words/fish","citations":[],"exampleUses":[],"labels":[],"notes":[],"relatedWords":[],"textProns":[]},{"id":"F5147800-2","partOfSpeech":"noun","attributionText":"from
+        The American Heritage® Dictionary of the English Language, 5th Edition.","sourceDictionary":"ahd-5","text":"Any
+        of various jawless aquatic craniates, including the lampreys and hagfishes.","sequence":"2","score":0,"word":"fish","attributionUrl":"https://ahdictionary.com/","wordnikUrl":"https://www.wordnik.com/words/fish","citations":[],"exampleUses":[],"labels":[],"notes":[],"relatedWords":[],"textProns":[]},{"id":"F5147800-3","partOfSpeech":"noun","attributionText":"from
+        The American Heritage® Dictionary of the English Language, 5th Edition.","sourceDictionary":"ahd-5","text":"The
+        flesh of such animals used as food.","sequence":"3","score":0,"word":"fish","attributionUrl":"https://ahdictionary.com/","wordnikUrl":"https://www.wordnik.com/words/fish","citations":[],"exampleUses":[],"labels":[],"notes":[],"relatedWords":[],"textProns":[]},{"id":"F5147800-4","partOfSpeech":"noun","attributionText":"from
+        The American Heritage® Dictionary of the English Language, 5th Edition.","sourceDictionary":"ahd-5","text":"A
+        person, especially one considered deficient in something.","sequence":"4","score":0,"labels":[{"text":"Informal","type":"fld"}],"word":"fish","exampleUses":[{"text":"a
+        poor fish."}],"attributionUrl":"https://ahdictionary.com/","wordnikUrl":"https://www.wordnik.com/words/fish","citations":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        The Century Dictionary.","sourceDictionary":"century","text":"A counter used
+        in various games.","word":"fish","attributionUrl":"https://www.wordnik.com/colophon#century/","wordnikUrl":"https://www.wordnik.com/words/fish","citations":[],"exampleUses":[],"labels":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        The Century Dictionary.","sourceDictionary":"century","text":"A vertebrate
+        which has gills and fins adapting it for living in the water.","word":"fish","attributionUrl":"https://www.wordnik.com/colophon#century/","wordnikUrl":"https://www.wordnik.com/words/fish","citations":[],"exampleUses":[],"labels":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        The Century Dictionary.","sourceDictionary":"century","text":"In <em>zoology</em>:
+        Any branchiferous vertebrate with a complete cranium and a lyriform shoulder-girdle.
+        In this sense, the leptocardians and myzonts are excluded, but the selachians
+        are included with true <em>Pisces.</em>","word":"fish","attributionUrl":"https://www.wordnik.com/colophon#century/","wordnikUrl":"https://www.wordnik.com/words/fish","citations":[],"exampleUses":[],"labels":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        The Century Dictionary.","sourceDictionary":"century","text":"A branchiferous
+        or teleostomous vertebrate with dermal plates or membrane-bones superadded
+        to the primordial cranium and shoulder-girdle, and with the branchiæ free
+        outwardly. The sturgeons as well as all the osseous fishes are included in
+        the group thus defined.","word":"fish","attributionUrl":"https://www.wordnik.com/colophon#century/","wordnikUrl":"https://www.wordnik.com/words/fish","citations":[],"exampleUses":[],"labels":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        The Century Dictionary.","sourceDictionary":"century","text":"In popular language,
+        any animal that lives entirely in the water; a swimming as distinguished from
+        a flying or walking animal, including cetaceous mammals, batrachians, mollusks,
+        crustaceans, and echinoderms, as well as fishes proper: commonly distinguished
+        by some specifying word, as black<em>fish</em>, shell<em>fish</em>, star<em>fish.</em>
+        See these and other compounds.","word":"fish","attributionUrl":"https://www.wordnik.com/colophon#century/","wordnikUrl":"https://www.wordnik.com/words/fish","citations":[],"exampleUses":[],"labels":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        The Century Dictionary.","sourceDictionary":"century","text":"The meat of
+        a fish or of fishes used as food.","word":"fish","attributionUrl":"https://www.wordnik.com/colophon#century/","wordnikUrl":"https://www.wordnik.com/words/fish","citations":[],"exampleUses":[],"labels":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        The Century Dictionary.","sourceDictionary":"century","text":"The codfish:
+        so called specifically by Cape Cod and Cape Ann fishermen, in distinction
+        from fish of other kinds, as mackerel, herring, etc.","word":"fish","attributionUrl":"https://www.wordnik.com/colophon#century/","wordnikUrl":"https://www.wordnik.com/words/fish","citations":[],"exampleUses":[],"labels":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        The Century Dictionary.","sourceDictionary":"century","text":"The zodiacal
+        sign Pisces.","word":"fish","attributionUrl":"https://www.wordnik.com/colophon#century/","wordnikUrl":"https://www.wordnik.com/words/fish","citations":[],"exampleUses":[],"labels":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        The Century Dictionary.","sourceDictionary":"century","text":"<em>Nautical</em>:
+        A purchase used to raise the flukes of an anchor up to the bill-board. Also
+        called a <em>fish-tackle.</em>","word":"fish","attributionUrl":"https://www.wordnik.com/colophon#century/","wordnikUrl":"https://www.wordnik.com/words/fish","citations":[],"exampleUses":[],"labels":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        The Century Dictionary.","sourceDictionary":"century","text":"A long piece
+        of timber or iron used to strengthen a mast or a yard when sprung.","word":"fish","attributionUrl":"https://www.wordnik.com/colophon#century/","wordnikUrl":"https://www.wordnik.com/words/fish","citations":[],"exampleUses":[],"labels":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        The Century Dictionary.","sourceDictionary":"century","text":"In <em>joinery</em>,
+        etc., a piece secured alongside of another to strengthen or stiffen it.","word":"fish","attributionUrl":"https://www.wordnik.com/colophon#century/","wordnikUrl":"https://www.wordnik.com/words/fish","citations":[],"exampleUses":[],"labels":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        The Century Dictionary.","sourceDictionary":"century","text":"Fish that are
+        or may be caught with bait.","word":"fish","attributionUrl":"https://www.wordnik.com/colophon#century/","wordnikUrl":"https://www.wordnik.com/words/fish","citations":[],"exampleUses":[],"labels":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        The Century Dictionary.","sourceDictionary":"century","text":"Fish having
+        a more or less ossified skeleton: thus distinguished from <internalXref urlencoded=\"cartilaginous%20fish\">cartilaginous
+        fish</internalXref>. See cut under <internalXref urlencoded=\"Esox\">Esox</internalXref>.","word":"fish","attributionUrl":"https://www.wordnik.com/colophon#century/","wordnikUrl":"https://www.wordnik.com/words/fish","citations":[],"exampleUses":[],"labels":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        The Century Dictionary.","sourceDictionary":"century","text":"See <internalXref
+        urlencoded=\"coarse%20fish\">coarse fish</internalXref>.","word":"fish","attributionUrl":"https://www.wordnik.com/colophon#century/","wordnikUrl":"https://www.wordnik.com/words/fish","citations":[],"exampleUses":[],"labels":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        The Century Dictionary.","sourceDictionary":"century","text":"In <em>ichthyology</em>,
+        a fish inhabiting the sea near the shore and in water of moderate depth: thus
+        contrasting with <em>deep-sea fish</em> and <em>pelagic fish.</em>","word":"fish","attributionUrl":"https://www.wordnik.com/colophon#century/","wordnikUrl":"https://www.wordnik.com/words/fish","citations":[],"exampleUses":[],"labels":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        The Century Dictionary.","sourceDictionary":"century","text":"The squid or
+        cuttlefish.","word":"fish","attributionUrl":"https://www.wordnik.com/colophon#century/","wordnikUrl":"https://www.wordnik.com/words/fish","citations":[],"exampleUses":[],"labels":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        The Century Dictionary.","sourceDictionary":"century","text":"See also <internalXref
+        urlencoded=\"whitefish\">whitefish</internalXref>.","word":"fish","attributionUrl":"https://www.wordnik.com/colophon#century/","wordnikUrl":"https://www.wordnik.com/words/fish","citations":[],"exampleUses":[],"labels":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        The Century Dictionary.","sourceDictionary":"century","text":"The Southern
+        Fish, Piscis Australis or Austrinus.","word":"fish","attributionUrl":"https://www.wordnik.com/colophon#century/","wordnikUrl":"https://www.wordnik.com/words/fish","citations":[],"exampleUses":[],"labels":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        The Century Dictionary.","sourceDictionary":"century","text":"A name sometimes
+        applied to fishes having ocellated spots of color resembling auxiliary eyes.","word":"fish","attributionUrl":"https://www.wordnik.com/colophon#century/","wordnikUrl":"https://www.wordnik.com/words/fish","citations":[],"exampleUses":[],"labels":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        The Century Dictionary.","sourceDictionary":"century","text":"<em>Chænobryttus
+        gulosus</em>, one of the sun-fishes found in fresh waters of the eastern United
+        States.","word":"fish","attributionUrl":"https://www.wordnik.com/colophon#century/","wordnikUrl":"https://www.wordnik.com/words/fish","citations":[],"exampleUses":[],"labels":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        the GNU version of the Collaborative International Dictionary of English.","sourceDictionary":"gcide","text":"A
+        counter, used in various games.","word":"fish","attributionUrl":"http://gcide.gnu.org.ua/","wordnikUrl":"https://www.wordnik.com/words/fish","citations":[],"exampleUses":[],"labels":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        the GNU version of the Collaborative International Dictionary of English.","sourceDictionary":"gcide","text":"A
+        name loosely applied in popular usage to many animals of diverse characteristics,
+        living in the water.","sequence":"1.","word":"fish","attributionUrl":"http://gcide.gnu.org.ua/","wordnikUrl":"https://www.wordnik.com/words/fish","citations":[],"exampleUses":[],"labels":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        the GNU version of the Collaborative International Dictionary of English.","sourceDictionary":"gcide","text":"An
+        oviparous, vertebrate animal usually having fins and a covering scales or
+        plates. It breathes by means of gills, and lives almost entirely in the water.
+        See <er>Pisces</er>.","sequence":"2.","labels":[{"text":"(Zoöl.)","type":"fld"}],"word":"fish","notes":[],"attributionUrl":"http://gcide.gnu.org.ua/","wordnikUrl":"https://www.wordnik.com/words/fish","citations":[],"exampleUses":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        the GNU version of the Collaborative International Dictionary of English.","sourceDictionary":"gcide","text":"The
+        twelfth sign of the zodiac; Pisces.","sequence":"3.","word":"fish","attributionUrl":"http://gcide.gnu.org.ua/","wordnikUrl":"https://www.wordnik.com/words/fish","citations":[],"exampleUses":[],"labels":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        the GNU version of the Collaborative International Dictionary of English.","sourceDictionary":"gcide","text":"The
+        flesh of fish, used as food.","sequence":"4.","word":"fish","attributionUrl":"http://gcide.gnu.org.ua/","wordnikUrl":"https://www.wordnik.com/words/fish","citations":[],"exampleUses":[],"labels":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        the GNU version of the Collaborative International Dictionary of English.","sourceDictionary":"gcide","sequence":"5.","labels":[{"text":"(Naut.)","type":"fld"}],"word":"fish","attributionUrl":"http://gcide.gnu.org.ua/","wordnikUrl":"https://www.wordnik.com/words/fish","citations":[],"exampleUses":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        the GNU version of the Collaborative International Dictionary of English.","sourceDictionary":"gcide","text":"A
+        purchase used to fish the anchor.","sequence":"5 (a)","word":"fish","attributionUrl":"http://gcide.gnu.org.ua/","wordnikUrl":"https://www.wordnik.com/words/fish","citations":[],"exampleUses":[],"labels":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        the GNU version of the Collaborative International Dictionary of English.","sourceDictionary":"gcide","text":"A
+        piece of timber, somewhat in the form of a fish, used to strengthen a mast
+        or yard.","sequence":"5 (b)","word":"fish","notes":[],"attributionUrl":"http://gcide.gnu.org.ua/","wordnikUrl":"https://www.wordnik.com/words/fish","citations":[],"exampleUses":[],"labels":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        the GNU version of the Collaborative International Dictionary of English.","sourceDictionary":"gcide","text":"See
+        under <er>Age</er>, n., 8.","word":"fish","attributionUrl":"http://gcide.gnu.org.ua/","wordnikUrl":"https://www.wordnik.com/words/fish","citations":[],"exampleUses":[],"labels":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        the GNU version of the Collaborative International Dictionary of English.","sourceDictionary":"gcide","text":"fish
+        (usually salted codfish) shared fine, mixed with mashed potato, and made into
+        the form of a small, round cake.","labels":[{"text":"[U.S.]","type":"mark"}],"word":"fish","attributionUrl":"http://gcide.gnu.org.ua/","wordnikUrl":"https://www.wordnik.com/words/fish","citations":[],"exampleUses":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        the GNU version of the Collaborative International Dictionary of English.","sourceDictionary":"gcide","text":"Same
+        as Fish plate (below).","word":"fish","attributionUrl":"http://gcide.gnu.org.ua/","wordnikUrl":"https://www.wordnik.com/words/fish","citations":[],"exampleUses":[],"labels":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        the GNU version of the Collaborative International Dictionary of English.","sourceDictionary":"gcide","text":"a
+        beam one of whose sides (commonly the under one) swells out like the belly
+        of a fish.","labels":[{"text":"(Mech.)","type":"fld"}],"word":"fish","attributionUrl":"http://gcide.gnu.org.ua/","wordnikUrl":"https://www.wordnik.com/words/fish","citations":[],"exampleUses":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        the GNU version of the Collaborative International Dictionary of English.","sourceDictionary":"gcide","text":"a
+        species of crow (<spn>Corvus ossifragus</spn>), found on the Atlantic coast
+        of the United States. It feeds largely on fish.","labels":[{"text":"(Zoöl.)","type":"fld"}],"word":"fish","attributionUrl":"http://gcide.gnu.org.ua/","wordnikUrl":"https://www.wordnik.com/words/fish","citations":[],"exampleUses":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        the GNU version of the Collaborative International Dictionary of English.","sourceDictionary":"gcide","text":"the
+        artifical breeding and rearing of fish; pisciculture.","word":"fish","attributionUrl":"http://gcide.gnu.org.ua/","wordnikUrl":"https://www.wordnik.com/words/fish","citations":[],"exampleUses":[],"labels":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        the GNU version of the Collaborative International Dictionary of English.","sourceDictionary":"gcide","text":"See
+        <er>Davit</er>.","word":"fish","attributionUrl":"http://gcide.gnu.org.ua/","wordnikUrl":"https://www.wordnik.com/words/fish","citations":[],"exampleUses":[],"labels":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        the GNU version of the Collaborative International Dictionary of English.","sourceDictionary":"gcide","text":"a
+        day on which fish is eaten; a fast day.","word":"fish","attributionUrl":"http://gcide.gnu.org.ua/","wordnikUrl":"https://www.wordnik.com/words/fish","citations":[],"exampleUses":[],"labels":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        the GNU version of the Collaborative International Dictionary of English.","sourceDictionary":"gcide","text":"any
+        species of merganser.","labels":[{"text":"(Zoöl.)","type":"fld"}],"word":"fish","attributionUrl":"http://gcide.gnu.org.ua/","wordnikUrl":"https://www.wordnik.com/words/fish","citations":[],"exampleUses":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        the GNU version of the Collaborative International Dictionary of English.","sourceDictionary":"gcide","text":"the
+        tackle depending from the fish davit, used in hauling up the anchor to the
+        gunwale of a ship.","word":"fish","attributionUrl":"http://gcide.gnu.org.ua/","wordnikUrl":"https://www.wordnik.com/words/fish","citations":[],"exampleUses":[],"labels":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        the GNU version of the Collaborative International Dictionary of English.","sourceDictionary":"gcide","text":"a
+        dam or weir in a river for keeping fish or taking them easily.","word":"fish","attributionUrl":"http://gcide.gnu.org.ua/","wordnikUrl":"https://www.wordnik.com/words/fish","citations":[],"exampleUses":[],"labels":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        the GNU version of the Collaborative International Dictionary of English.","sourceDictionary":"gcide","text":"See
+        <er>Isinglass</er>.","word":"fish","attributionUrl":"http://gcide.gnu.org.ua/","wordnikUrl":"https://www.wordnik.com/words/fish","citations":[],"exampleUses":[],"labels":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        the GNU version of the Collaborative International Dictionary of English.","sourceDictionary":"gcide","text":"a
+        joint formed by a plate or pair of plates fastened upon two meeting beams,
+        plates, etc., at their junction; -- used largely in connecting the rails of
+        railroads.","word":"fish","attributionUrl":"http://gcide.gnu.org.ua/","wordnikUrl":"https://www.wordnik.com/words/fish","citations":[],"exampleUses":[],"labels":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        the GNU version of the Collaborative International Dictionary of English.","sourceDictionary":"gcide","text":"a
+        long kettle for boiling fish whole.","word":"fish","attributionUrl":"http://gcide.gnu.org.ua/","wordnikUrl":"https://www.wordnik.com/words/fish","citations":[],"exampleUses":[],"labels":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        the GNU version of the Collaborative International Dictionary of English.","sourceDictionary":"gcide","text":"a
+        dam with a series of steps which fish can leap in order to ascend falls in
+        a river.","word":"fish","attributionUrl":"http://gcide.gnu.org.ua/","wordnikUrl":"https://www.wordnik.com/words/fish","citations":[],"exampleUses":[],"labels":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        the GNU version of the Collaborative International Dictionary of English.","sourceDictionary":"gcide","text":"a
+        line made of twisted hair, silk, etc., used in angling.","word":"fish","attributionUrl":"http://gcide.gnu.org.ua/","wordnikUrl":"https://www.wordnik.com/words/fish","citations":[],"exampleUses":[],"labels":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        the GNU version of the Collaborative International Dictionary of English.","sourceDictionary":"gcide","word":"fish","attributionUrl":"http://gcide.gnu.org.ua/","wordnikUrl":"https://www.wordnik.com/words/fish","citations":[],"exampleUses":[],"labels":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        the GNU version of the Collaborative International Dictionary of English.","sourceDictionary":"gcide","text":"any
+        crustacean parasitic on fishes, esp. the parasitic Copepoda, belonging to
+        Caligus, Argulus, and other related genera. See <er>Branchiura</er>.","labels":[{"text":"(Zoöl.)","type":"fld"}],"word":"fish","attributionUrl":"http://gcide.gnu.org.ua/","wordnikUrl":"https://www.wordnik.com/words/fish","citations":[],"exampleUses":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        the GNU version of the Collaborative International Dictionary of English.","sourceDictionary":"gcide","text":"the
+        stomach of a fish; also, the air bladder, or sound.","labels":[{"text":"(Zoöl.)","type":"fld"}],"word":"fish","attributionUrl":"http://gcide.gnu.org.ua/","wordnikUrl":"https://www.wordnik.com/words/fish","citations":[],"exampleUses":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        the GNU version of the Collaborative International Dictionary of English.","sourceDictionary":"gcide","text":"fish
+        desiccated and ground fine, for use in soups, etc.","word":"fish","attributionUrl":"http://gcide.gnu.org.ua/","wordnikUrl":"https://www.wordnik.com/words/fish","citations":[],"exampleUses":[],"labels":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        the GNU version of the Collaborative International Dictionary of English.","sourceDictionary":"gcide","text":"oil
+        obtained from the bodies of fish and marine animals, as whales, seals, sharks,
+        from cods'' livers, etc.","word":"fish","attributionUrl":"http://gcide.gnu.org.ua/","wordnikUrl":"https://www.wordnik.com/words/fish","citations":[],"exampleUses":[],"labels":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        the GNU version of the Collaborative International Dictionary of English.","sourceDictionary":"gcide","text":"a
+        fish-eating owl of the Old World genera Scotopelia and Ketupa, esp. a large
+        East Indian species (<spn>K. Ceylonensis</spn>).","labels":[{"text":"(Zoöl.)","type":"fld"}],"word":"fish","attributionUrl":"http://gcide.gnu.org.ua/","wordnikUrl":"https://www.wordnik.com/words/fish","citations":[],"exampleUses":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        the GNU version of the Collaborative International Dictionary of English.","sourceDictionary":"gcide","text":"one
+        of the plates of a fish joint.","word":"fish","attributionUrl":"http://gcide.gnu.org.ua/","wordnikUrl":"https://www.wordnik.com/words/fish","citations":[],"exampleUses":[],"labels":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        the GNU version of the Collaborative International Dictionary of English.","sourceDictionary":"gcide","text":"a
+        wicker basket, sunk, with a float attached, for catching crabs, lobsters,
+        etc.","word":"fish","attributionUrl":"http://gcide.gnu.org.ua/","wordnikUrl":"https://www.wordnik.com/words/fish","citations":[],"exampleUses":[],"labels":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        the GNU version of the Collaborative International Dictionary of English.","sourceDictionary":"gcide","text":"a
+        net attached to stakes, for entrapping and catching fish; a weir.","labels":[{"text":"[Local,
+        U.S.]","type":"mark"}],"word":"fish","attributionUrl":"http://gcide.gnu.org.ua/","wordnikUrl":"https://www.wordnik.com/words/fish","citations":[],"exampleUses":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        the GNU version of the Collaborative International Dictionary of English.","sourceDictionary":"gcide","text":"a
+        broad knife for dividing fish at table; a fish trowel.","word":"fish","attributionUrl":"http://gcide.gnu.org.ua/","wordnikUrl":"https://www.wordnik.com/words/fish","citations":[],"exampleUses":[],"labels":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        the GNU version of the Collaborative International Dictionary of English.","sourceDictionary":"gcide","text":"an
+        inclined box set in a stream at a small fall, or ripple, to catch fish descending
+        the current.","word":"fish","attributionUrl":"http://gcide.gnu.org.ua/","wordnikUrl":"https://www.wordnik.com/words/fish","citations":[],"exampleUses":[],"labels":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        the GNU version of the Collaborative International Dictionary of English.","sourceDictionary":"gcide","text":"the
+        air bladder of certain fishes, esp. those that are dried and used as food,
+        or in the arts, as for the preparation of isinglass.","word":"fish","attributionUrl":"http://gcide.gnu.org.ua/","wordnikUrl":"https://www.wordnik.com/words/fish","citations":[],"exampleUses":[],"labels":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        the GNU version of the Collaborative International Dictionary of English.","sourceDictionary":"gcide","text":"a
+        story which taxes credulity; an extravagant or incredible narration.","labels":[{"text":"[Colloq.
+        U.S.]","type":"mark"}],"word":"fish","attributionUrl":"http://gcide.gnu.org.ua/","wordnikUrl":"https://www.wordnik.com/words/fish","citations":[],"exampleUses":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        the GNU version of the Collaborative International Dictionary of English.","sourceDictionary":"gcide","text":"A
+        perforated earthenware slab at the bottom of a dish, to drain the water from
+        a boiled fish.","word":"fish","attributionUrl":"http://gcide.gnu.org.ua/","wordnikUrl":"https://www.wordnik.com/words/fish","citations":[],"exampleUses":[],"labels":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        the GNU version of the Collaborative International Dictionary of English.","sourceDictionary":"gcide","text":"a
+        fish slice.","word":"fish","attributionUrl":"http://gcide.gnu.org.ua/","wordnikUrl":"https://www.wordnik.com/words/fish","citations":[],"exampleUses":[],"labels":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        the GNU version of the Collaborative International Dictionary of English.","sourceDictionary":"gcide","text":"a
+        weir set in a stream, for catching fish.","word":"fish","attributionUrl":"http://gcide.gnu.org.ua/","wordnikUrl":"https://www.wordnik.com/words/fish","citations":[],"exampleUses":[],"labels":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        the GNU version of the Collaborative International Dictionary of English.","sourceDictionary":"gcide","word":"fish","attributionUrl":"http://gcide.gnu.org.ua/","wordnikUrl":"https://www.wordnik.com/words/fish","citations":[],"exampleUses":[],"labels":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        the GNU version of the Collaborative International Dictionary of English.","sourceDictionary":"gcide","text":"neither
+        one thing nor the other.","labels":[{"text":"Fig.","type":"mark"}],"word":"fish","attributionUrl":"http://gcide.gnu.org.ua/","wordnikUrl":"https://www.wordnik.com/words/fish","citations":[],"exampleUses":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        the GNU version of the Collaborative International Dictionary of English.","sourceDictionary":"gcide","word":"fish","attributionUrl":"http://gcide.gnu.org.ua/","wordnikUrl":"https://www.wordnik.com/words/fish","citations":[],"exampleUses":[],"labels":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        Wiktionary, Creative Commons Attribution/Share-Alike License.","sourceDictionary":"wiktionary","text":"A
+        <xref>cold-blooded</xref> <xref>vertebrate</xref> <xref>animal</xref> that
+        lives in <xref>water</xref>, moving with the help of <xref>fins</xref> and
+        breathing with <xref>gills</xref>.","labels":[{"text":"countable","type":"grammar"}],"word":"fish","attributionUrl":"http://creativecommons.org/licenses/by-sa/3.0/","wordnikUrl":"https://www.wordnik.com/words/fish","citations":[],"exampleUses":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        Wiktionary, Creative Commons Attribution/Share-Alike License.","sourceDictionary":"wiktionary","text":"Any
+        animal that lives exclusively in water.","labels":[{"text":"possibly archaic","type":"chronological"}],"word":"fish","attributionUrl":"http://creativecommons.org/licenses/by-sa/3.0/","wordnikUrl":"https://www.wordnik.com/words/fish","citations":[],"exampleUses":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        Wiktionary, Creative Commons Attribution/Share-Alike License.","sourceDictionary":"wiktionary","text":"The
+        flesh of the fish used as food.","labels":[{"text":"uncountable","type":"grammar"}],"word":"fish","attributionUrl":"http://creativecommons.org/licenses/by-sa/3.0/","wordnikUrl":"https://www.wordnik.com/words/fish","citations":[],"exampleUses":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        Wiktionary, Creative Commons Attribution/Share-Alike License.","sourceDictionary":"wiktionary","text":"A
+        period of time spent fishing.","labels":[{"text":"countable","type":"grammar"}],"word":"fish","attributionUrl":"http://creativecommons.org/licenses/by-sa/3.0/","wordnikUrl":"https://www.wordnik.com/words/fish","citations":[],"exampleUses":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        Wiktionary, Creative Commons Attribution/Share-Alike License.","sourceDictionary":"wiktionary","text":"An
+        instance of seeking something.","labels":[{"text":"countable","type":"grammar"}],"word":"fish","attributionUrl":"http://creativecommons.org/licenses/by-sa/3.0/","wordnikUrl":"https://www.wordnik.com/words/fish","citations":[],"exampleUses":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        Wiktionary, Creative Commons Attribution/Share-Alike License.","sourceDictionary":"wiktionary","text":"A
+        <xref>card</xref> <xref>game</xref> in which the <xref>object</xref> is to
+        obtain pairs of cards.","labels":[{"text":"uncountable","type":"grammar"}],"word":"fish","attributionUrl":"http://creativecommons.org/licenses/by-sa/3.0/","wordnikUrl":"https://www.wordnik.com/words/fish","citations":[],"exampleUses":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        Wiktionary, Creative Commons Attribution/Share-Alike License.","sourceDictionary":"wiktionary","text":"A
+        <xref>woman</xref>.","labels":[{"text":"uncountable","type":"grammar"},{"text":"derogatory","type":"usage"},{"text":"slang","type":"register"}],"word":"fish","attributionUrl":"http://creativecommons.org/licenses/by-sa/3.0/","wordnikUrl":"https://www.wordnik.com/words/fish","citations":[],"exampleUses":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        Wiktionary, Creative Commons Attribution/Share-Alike License.","sourceDictionary":"wiktionary","text":"An
+        easy victim for <xref>swindling</xref>.","labels":[{"text":"countable","type":"grammar"},{"text":"slang","type":"register"}],"word":"fish","attributionUrl":"http://creativecommons.org/licenses/by-sa/3.0/","wordnikUrl":"https://www.wordnik.com/words/fish","citations":[],"exampleUses":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        Wiktionary, Creative Commons Attribution/Share-Alike License.","sourceDictionary":"wiktionary","text":"A
+        bad <xref>poker</xref> player.","labels":[{"text":"countable","type":"grammar"},{"text":"poker
+        slang","type":"register"}],"word":"fish","attributionUrl":"http://creativecommons.org/licenses/by-sa/3.0/","wordnikUrl":"https://www.wordnik.com/words/fish","citations":[],"exampleUses":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        Wiktionary, Creative Commons Attribution/Share-Alike License.","sourceDictionary":"wiktionary","text":"A
+        <xref>makeshift</xref> <xref>overlapping</xref> longitudinal brace used to
+        temporarily repair or extend a spar or mast of a ship.","labels":[{"text":"countable","type":"grammar"},{"text":"nautical","type":"usage"}],"word":"fish","attributionUrl":"http://creativecommons.org/licenses/by-sa/3.0/","wordnikUrl":"https://www.wordnik.com/words/fish","citations":[],"exampleUses":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        Wiktionary, Creative Commons Attribution/Share-Alike License.","sourceDictionary":"wiktionary","text":"Torpedo","labels":[{"text":"countable","type":"grammar"},{"text":"nautical","type":"usage"}],"word":"fish","attributionUrl":"http://creativecommons.org/licenses/by-sa/3.0/","wordnikUrl":"https://www.wordnik.com/words/fish","citations":[],"exampleUses":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        WordNet 3.0 Copyright 2006 by Princeton University. All rights reserved.","sourceDictionary":"wordnet","text":"the
+        twelfth sign of the zodiac; the sun is in this sign from about February 19
+        to March 20","word":"fish","attributionUrl":"https://wordnet.princeton.edu/","wordnikUrl":"https://www.wordnik.com/words/fish","citations":[],"exampleUses":[],"labels":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        WordNet 3.0 Copyright 2006 by Princeton University. All rights reserved.","sourceDictionary":"wordnet","text":"(astrology)
+        a person who is born while the sun is in Pisces","word":"fish","attributionUrl":"https://wordnet.princeton.edu/","wordnikUrl":"https://www.wordnik.com/words/fish","citations":[],"exampleUses":[],"labels":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        WordNet 3.0 Copyright 2006 by Princeton University. All rights reserved.","sourceDictionary":"wordnet","text":"the
+        flesh of fish used as food","word":"fish","exampleUses":[{"text":"they have
+        a chef who specializes in fish","position":0},{"text":"after the scare about
+        foot-and-mouth disease a lot of people started eating fish instead of meat","position":0}],"attributionUrl":"https://wordnet.princeton.edu/","wordnikUrl":"https://www.wordnik.com/words/fish","citations":[],"labels":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        WordNet 3.0 Copyright 2006 by Princeton University. All rights reserved.","sourceDictionary":"wordnet","text":"any
+        of various mostly cold-blooded aquatic vertebrates usually having scales and
+        breathing through gills","word":"fish","exampleUses":[{"text":"in the living
+        room there was a tank of colorful fish","position":0}],"attributionUrl":"https://wordnet.princeton.edu/","wordnikUrl":"https://www.wordnik.com/words/fish","citations":[],"labels":[],"notes":[],"relatedWords":[],"textProns":[]}]'
+  recorded_at: Fri, 13 Sep 2024 15:23:33 GMT
+recorded_with: VCR 6.3.1

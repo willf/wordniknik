@@ -1,0 +1,57 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.wordnik.com/v4/word.json/ruby/phrases?api_key=API_KEY&limit=5
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.11.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Fri, 13 Sep 2024 15:23:36 GMT
+      content-type:
+      - application/json; charset=utf-8
+      transfer-encoding:
+      - chunked
+      connection:
+      - keep-alive
+      server:
+      - nginx/1.24.0
+      x-ratelimit-remaining-minute:
+      - '490'
+      x-ratelimit-limit-minute:
+      - '500'
+      x-ratelimit-limit-hour:
+      - '15000'
+      ratelimit-reset:
+      - '24'
+      ratelimit-remaining:
+      - '490'
+      ratelimit-limit:
+      - '500'
+      x-ratelimit-remaining-hour:
+      - '14986'
+      cache-control:
+      - no-cache
+      access-control-allow-origin:
+      - "*"
+      x-kong-upstream-latency:
+      - '18'
+      x-kong-proxy-latency:
+      - '1'
+      via:
+      - kong/3.4.1
+      content-encoding:
+      - gzip
+    body:
+      encoding: UTF-8
+      string: '[{"count":7,"gram1":"ruby","gram2":"red","mi":12.83407129011852,"wlmi":15.641426212176123},{"count":1,"gram1":"know","gram2":"ruby","mi":4.36541070099619,"wlmi":4.36541070099619},{"count":2,"gram1":"the","gram2":"ruby","mi":1.798656547266674,"wlmi":2.798656547266674},{"count":1,"gram1":"is","gram2":"ruby","mi":2.5417556916160144,"wlmi":2.5417556916160144}]'
+  recorded_at: Fri, 13 Sep 2024 15:23:36 GMT
+recorded_with: VCR 6.3.1

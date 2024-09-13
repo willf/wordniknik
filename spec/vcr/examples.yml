@@ -1,0 +1,96 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.wordnik.com/v4/word.json/ruby/examples?api_key=API_KEY&limit=10
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.11.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Fri, 13 Sep 2024 15:23:34 GMT
+      content-type:
+      - application/json; charset=utf-8
+      transfer-encoding:
+      - chunked
+      connection:
+      - keep-alive
+      server:
+      - nginx/1.24.0
+      x-ratelimit-remaining-minute:
+      - '495'
+      x-ratelimit-limit-minute:
+      - '500'
+      x-ratelimit-limit-hour:
+      - '15000'
+      ratelimit-reset:
+      - '27'
+      ratelimit-remaining:
+      - '495'
+      ratelimit-limit:
+      - '500'
+      x-ratelimit-remaining-hour:
+      - '14991'
+      cache-control:
+      - no-cache
+      vary:
+      - accept-encoding
+      content-encoding:
+      - gzip
+      access-control-allow-origin:
+      - "*"
+      x-kong-upstream-latency:
+      - '235'
+      x-kong-proxy-latency:
+      - '0'
+      via:
+      - kong/3.4.1
+    body:
+      encoding: UTF-8
+      string: '{"examples":[{"provider":{"id":712},"year":2009,"rating":585.8301,"url":"http://a3li.li/2009/12/ruby-the-next-generation","word":"ruby","text":"I
+        think he covered the motivation and implementation details of what we call
+        ruby-ng. eclass pretty well, so I''ll try to give a little end-user info.","documentId":21365504,"exampleId":468377826,"title":"Planet
+        Gentoo"},{"provider":{"id":711},"year":2009,"rating":444,"url":"http://poetrydispatch.wordpress.com/2009/04/10/norbert-blei-six-found-poems-in-the-words-and-paintings-of-andrew-wyeth/","word":"ruby","text":"If
+        ‘going-to-church’ had any meaning and effect upon me as a child, it was the
+        glitter of gold and silver chalices; the sheen of sacred vestments, vigil
+        candles flickering in ruby light; stained glass windows romancing the morning
+        and evening light; the blue of the statuesque Blessed Virgin and blood-red
+        robe of Christ, the Sacred Heart arm and hand outstretched to the multitudes;
+        statues draped in purple during Lent.","documentId":30495267,"exampleId":959969349,"title":"norbert
+        blei | six found-poems in the words and paintings of andrew wyeth &laquo;
+        poetry dispatch &amp; other notes from the underground"},{"provider":{"id":711},"year":2006,"rating":440,"url":"http://etext.library.adelaide.edu.au/b/burton/richard/b97b/complete.html","word":"ruby","text":"The
+        ruby is supposed by Moslems to be a common mineral thoroughly","documentId":30111681,"exampleId":1099569132,"title":"The
+        Book of The Thousand Nights And A Night"},{"provider":{"id":711},"year":1998,"rating":436.83008,"url":"http://nobelprize.org/nobel_prizes/physics/laureates/1997/chu-autobio.html","word":"ruby","text":"I
+        spent the first year at Bell writing a paper reviewing the current status
+        of x-ray microscopy and started an experiment on energy transfer in ruby with
+        Hyatt Gibbs and Sam McCall.","documentId":30177543,"exampleId":817863934,"title":"Steven
+        Chu - Autobiography"},{"provider":{"id":711},"rating":432.0916,"url":"http://www.gutenberg.org/dirs/2/2/2/1/22212/22212-8.txt","word":"ruby","text":"On
+        the fourth night after he received the cut ruby from the Dutch lapidaries,
+        Paternostro was murdered and the gem stolen from his apartments in Hatton
+        Gardens.","documentId":18085171,"exampleId":1148134872,"title":"The Paternoster
+        Ruby","author":"Charles Edmonds Walk"},{"provider":{"id":711},"year":1894,"rating":430.28403,"url":"http://digital.library.upenn.edu/women/steel/punjab/punjab.html","word":"ruby","text":"Tale:
+        snake-stone ruby is put into a box for twelve years and turns into hero.","documentId":30111449,"exampleId":1098131700,"title":"Tales
+        of the Punjab"},{"provider":{"id":711},"year":1887,"rating":430.11496,"url":"http://digital.library.upenn.edu/women/cooper/hours/hours.html","word":"ruby","text":"The
+        tufted convallaria bifolia, or bead-ruby, is one of our most common wood plants,
+        very much like that of Europe, although the flowerets are larger.","documentId":30111586,"exampleId":1099067744,"title":"Rural
+        Hours"},{"provider":{"id":712},"year":2009,"rating":425.83008,"url":"http://www.slideshare.net/guest315c77f3/installingrorinlinux-2622013","word":"ruby","text":"For
+        example, the command rpm ­qa | grep ­i ruby queries Linux to display the names
+        of all installed packages, and displays any names containing the word ruby
+        (ignoring upper­ versus lower­case).","documentId":21149515,"exampleId":433531910,"title":"Recently
+        Uploaded Slideshows"},{"provider":{"id":712},"year":2009,"rating":425.83008,"url":"http://www.slideshare.net/guest315c77f3/installingrorinlinux-2622014","word":"ruby","text":"For
+        example, the command rpm ­qa | grep ­i ruby queries Linux to display the names
+        of all installed packages, and displays any names containing the word ruby
+        (ignoring upper­ versus lower­case).","documentId":21149517,"exampleId":433532065,"title":"Recently
+        Uploaded Slideshows"},{"provider":{"id":712},"year":2008,"rating":425,"url":"http://thedailysentinel.com/story.lasso?ewcd=0488bf33af1030c7","word":"ruby","text":"John
+        Radavsky will be the featured performer, singing songs with the word ruby
+        in them.","documentId":12877251,"exampleId":195307394,"title":"The Daily Sentinel:
+        News"}]}'
+  recorded_at: Fri, 13 Sep 2024 15:23:34 GMT
+recorded_with: VCR 6.3.1

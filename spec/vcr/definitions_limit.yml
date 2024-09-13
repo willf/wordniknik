@@ -1,0 +1,67 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.wordnik.com/v4/word.json/set/definitions?api_key=API_KEY&limit=3
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.11.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Fri, 13 Sep 2024 15:23:33 GMT
+      content-type:
+      - application/json; charset=utf-8
+      transfer-encoding:
+      - chunked
+      connection:
+      - keep-alive
+      server:
+      - nginx/1.24.0
+      x-ratelimit-remaining-minute:
+      - '496'
+      x-ratelimit-limit-minute:
+      - '500'
+      x-ratelimit-limit-hour:
+      - '15000'
+      ratelimit-reset:
+      - '27'
+      ratelimit-remaining:
+      - '496'
+      ratelimit-limit:
+      - '500'
+      x-ratelimit-remaining-hour:
+      - '14992'
+      cache-control:
+      - no-cache
+      vary:
+      - accept-encoding
+      content-encoding:
+      - gzip
+      access-control-allow-origin:
+      - "*"
+      x-kong-upstream-latency:
+      - '7'
+      x-kong-proxy-latency:
+      - '0'
+      via:
+      - kong/3.4.1
+    body:
+      encoding: UTF-8
+      string: '[{"id":"S5312700-1","partOfSpeech":"noun","attributionText":"from The
+        American Heritage® Dictionary of the English Language, 5th Edition.","sourceDictionary":"ahd-5","text":"A
+        group of things of the same kind that belong together and are so used.","sequence":"1","score":0,"word":"set","exampleUses":[{"text":"a
+        chess set."}],"attributionUrl":"https://ahdictionary.com/","wordnikUrl":"https://www.wordnik.com/words/set","citations":[],"labels":[],"notes":[],"relatedWords":[],"textProns":[]},{"id":"S5312700-2","partOfSpeech":"noun","attributionText":"from
+        The American Heritage® Dictionary of the English Language, 5th Edition.","sourceDictionary":"ahd-5","text":"A
+        group of persons sharing a common interest.","sequence":"2","score":0,"word":"set","exampleUses":[{"text":"the
+        high-school set."}],"attributionUrl":"https://ahdictionary.com/","wordnikUrl":"https://www.wordnik.com/words/set","citations":[],"labels":[],"notes":[],"relatedWords":[],"textProns":[]},{"id":"S5312700-3","partOfSpeech":"noun","attributionText":"from
+        The American Heritage® Dictionary of the English Language, 5th Edition.","sourceDictionary":"ahd-5","text":"A
+        group of books or periodicals published as a unit.","sequence":"3","score":0,"word":"set","attributionUrl":"https://ahdictionary.com/","wordnikUrl":"https://www.wordnik.com/words/set","citations":[],"exampleUses":[],"labels":[],"notes":[],"relatedWords":[],"textProns":[]}]'
+  recorded_at: Fri, 13 Sep 2024 15:23:33 GMT
+recorded_with: VCR 6.3.1

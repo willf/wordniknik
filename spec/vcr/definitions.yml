@@ -1,0 +1,164 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.wordnik.com/v4/word.json/ruby/definitions?api_key=API_KEY&limit=200
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.11.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Fri, 13 Sep 2024 15:23:32 GMT
+      content-type:
+      - application/json; charset=utf-8
+      transfer-encoding:
+      - chunked
+      connection:
+      - keep-alive
+      server:
+      - nginx/1.24.0
+      x-ratelimit-remaining-hour:
+      - '14998'
+      x-ratelimit-limit-hour:
+      - '15000'
+      ratelimit-reset:
+      - '28'
+      ratelimit-remaining:
+      - '498'
+      ratelimit-limit:
+      - '500'
+      x-ratelimit-limit-minute:
+      - '500'
+      x-ratelimit-remaining-minute:
+      - '498'
+      cache-control:
+      - no-cache
+      vary:
+      - accept-encoding
+      content-encoding:
+      - gzip
+      access-control-allow-origin:
+      - "*"
+      x-kong-upstream-latency:
+      - '18'
+      x-kong-proxy-latency:
+      - '1'
+      via:
+      - kong/3.4.1
+    body:
+      encoding: UTF-8
+      string: '[{"id":"R5365500-1","partOfSpeech":"noun","attributionText":"from The
+        American Heritage® Dictionary of the English Language, 5th Edition.","sourceDictionary":"ahd-5","text":"A
+        deep red, translucent variety of the mineral corundum, highly valued as a
+        precious stone.","sequence":"1","score":0,"word":"ruby","attributionUrl":"https://ahdictionary.com/","wordnikUrl":"https://www.wordnik.com/words/ruby","citations":[],"exampleUses":[],"labels":[],"notes":[],"relatedWords":[],"textProns":[]},{"id":"R5365500-2","partOfSpeech":"noun","attributionText":"from
+        The American Heritage® Dictionary of the English Language, 5th Edition.","sourceDictionary":"ahd-5","text":"Something,
+        such as a watch bearing, that is made from a ruby.","sequence":"2","score":0,"word":"ruby","attributionUrl":"https://ahdictionary.com/","wordnikUrl":"https://www.wordnik.com/words/ruby","citations":[],"exampleUses":[],"labels":[],"notes":[],"relatedWords":[],"textProns":[]},{"id":"R5365500-3","partOfSpeech":"noun","attributionText":"from
+        The American Heritage® Dictionary of the English Language, 5th Edition.","sourceDictionary":"ahd-5","text":"A
+        dark or deep red to deep purplish red.","sequence":"3","score":0,"word":"ruby","attributionUrl":"https://ahdictionary.com/","wordnikUrl":"https://www.wordnik.com/words/ruby","citations":[],"exampleUses":[],"labels":[],"notes":[],"relatedWords":[],"textProns":[]},{"id":"R5365500-4","partOfSpeech":"adjective","attributionText":"from
+        The American Heritage® Dictionary of the English Language, 5th Edition.","sourceDictionary":"ahd-5","text":"Of
+        the color ruby.","sequence":"4","score":0,"word":"ruby","attributionUrl":"https://ahdictionary.com/","wordnikUrl":"https://www.wordnik.com/words/ruby","citations":[],"exampleUses":[],"labels":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        The Century Dictionary.","sourceDictionary":"century","text":"In 1887, M.
+        Frémy, with the aid of his <em>preparateur</em>, M. Verneuil, undertook new
+        experiments on the crystallization of alumina, and had the satisfaction of
+        obtaining very beautiful <em>artificial rubies.</em> Now M. Verneuil, today
+        professor at the Museum, has discovered the method of producing the ruby artificially
+        by melting a mixture of alumina and oxide of chrome at a constant temperature
+        of several thousands of degrees, and in layers superposed from the outside
+        to the inside, in order to prevent the production of cracks in the crystalline
+        mass. This eminent chemist has succeeded in creating a magnificent ruby, weighing
+        about 2,500 grams, and having a commercial value of about 3,000 francs. …","word":"ruby","attributionUrl":"https://www.wordnik.com/colophon#century/","wordnikUrl":"https://www.wordnik.com/words/ruby","citations":[],"exampleUses":[],"labels":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        The Century Dictionary.","sourceDictionary":"century","text":"The deepest
+        red topaz which owes its color to heating, to the right degree, of the yellow
+        Brazilian topaz. Further heating turns it pink, and still continued heating
+        renders it colorless. See <internalXref urlencoded=\"topaz\">topaz</internalXref>.","word":"ruby","attributionUrl":"https://www.wordnik.com/colophon#century/","wordnikUrl":"https://www.wordnik.com/words/ruby","citations":[],"exampleUses":[],"labels":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        The Century Dictionary.","sourceDictionary":"century","text":"The clear rich-red
+        variety of corundum. (See <internalXref urlencoded=\"corundum\">corundum</internalXref>.)","word":"ruby","attributionUrl":"https://www.wordnik.com/colophon#century/","wordnikUrl":"https://www.wordnik.com/words/ruby","citations":[],"exampleUses":[],"labels":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        The Century Dictionary.","sourceDictionary":"century","text":"A pure or somewhat
+        crimson red color.","word":"ruby","attributionUrl":"https://www.wordnik.com/colophon#century/","wordnikUrl":"https://www.wordnik.com/words/ruby","citations":[],"exampleUses":[],"labels":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        The Century Dictionary.","sourceDictionary":"century","text":"Something resembling
+        a ruby; a blain; a blotch; a carbuncle.","word":"ruby","attributionUrl":"https://www.wordnik.com/colophon#century/","wordnikUrl":"https://www.wordnik.com/words/ruby","citations":[],"exampleUses":[],"labels":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        The Century Dictionary.","sourceDictionary":"century","text":"In <em>heraldry</em>,
+        the tincture red or gules, when blazoning is done by means of precious stones.
+        See <internalXref urlencoded=\"blazon\">blazon</internalXref>, n., 2.","word":"ruby","attributionUrl":"https://www.wordnik.com/colophon#century/","wordnikUrl":"https://www.wordnik.com/words/ruby","citations":[],"exampleUses":[],"labels":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        The Century Dictionary.","sourceDictionary":"century","text":"In <em>printing</em>,
+        a type smaller than nonpareil and larger than pearl, about the size of American
+        agate, or 5½ points in the new system of sizes.","word":"ruby","attributionUrl":"https://www.wordnik.com/colophon#century/","wordnikUrl":"https://www.wordnik.com/words/ruby","citations":[],"exampleUses":[],"labels":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        The Century Dictionary.","sourceDictionary":"century","text":"In <em>horology</em>:
+        Any variety of ruby used as jewels in watchmaking, as in the finest watches.
+        Hence—","word":"ruby","attributionUrl":"https://www.wordnik.com/colophon#century/","wordnikUrl":"https://www.wordnik.com/words/ruby","citations":[],"exampleUses":[],"labels":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        The Century Dictionary.","sourceDictionary":"century","text":"The jewel of
+        the roller of the balance-staff of a watch, irrespective of the material of
+        which it is made. Compare <internalXref urlencoded=\"jewel\">jewel</internalXref>,
+        n., 4.","word":"ruby","attributionUrl":"https://www.wordnik.com/colophon#century/","wordnikUrl":"https://www.wordnik.com/words/ruby","citations":[],"exampleUses":[],"labels":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        The Century Dictionary.","sourceDictionary":"century","text":"In <em>ornithology</em>:
+        The red bird of paradise, <em>Paradisea rubra</em> or <em>sanguinea.</em>","word":"ruby","attributionUrl":"https://www.wordnik.com/colophon#century/","wordnikUrl":"https://www.wordnik.com/words/ruby","citations":[],"exampleUses":[],"labels":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        The Century Dictionary.","sourceDictionary":"century","text":"The ruby hummer,
+        <em>Clytolæma rubineus</em> of Brazil, and some related humming-birds with
+        ruby gorget.","word":"ruby","attributionUrl":"https://www.wordnik.com/colophon#century/","wordnikUrl":"https://www.wordnik.com/words/ruby","citations":[],"exampleUses":[],"labels":[],"notes":[],"relatedWords":[],"textProns":[]},{"attributionText":"from
+        The Century Dictionary.","sourceDictionary":"century","text":"Of a color resembling
+        that of the ruby; of a rich red color inclining toward crimson.","word":"ruby","attributionUrl":"https://www.wordnik.com/colophon#century/","wordnikUrl":"https://www.wordnik.com/words/ruby","citations":[],"exampleUses":[],"labels":[],"notes":[],"relatedWords":[],"textProns":[]},{"attributionText":"from
+        The Century Dictionary.","sourceDictionary":"century","text":"To make red.","word":"ruby","attributionUrl":"https://www.wordnik.com/colophon#century/","wordnikUrl":"https://www.wordnik.com/words/ruby","citations":[],"exampleUses":[],"labels":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"adjective","attributionText":"from
+        the GNU version of the Collaborative International Dictionary of English.","sourceDictionary":"gcide","text":"Ruby-colored;
+        red.","word":"ruby","exampleUses":[{"text":"<ex>ruby</ex> lips","position":0}],"attributionUrl":"http://gcide.gnu.org.ua/","wordnikUrl":"https://www.wordnik.com/words/ruby","citations":[],"labels":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"transitive
+        verb","attributionText":"from the GNU version of the Collaborative International
+        Dictionary of English.","sourceDictionary":"gcide","text":"To make red; to
+        redden.","labels":[{"text":"rare","type":"mark"}],"citations":[{"source":"Pope."}],"word":"ruby","attributionUrl":"http://gcide.gnu.org.ua/","wordnikUrl":"https://www.wordnik.com/words/ruby","exampleUses":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        the GNU version of the Collaborative International Dictionary of English.","sourceDictionary":"gcide","text":"A
+        precious stone of a carmine red color, sometimes verging to violet, or intermediate
+        between carmine and hyacinth red. It is a red crystallized variety of corundum.","sequence":"1.","labels":[{"text":"(Min.)","type":"fld"}],"citations":[{"source":"Chaucer.","cite":"Of
+        <ex>rubies</ex>, sapphires, and pearles white."}],"word":"ruby","notes":[],"attributionUrl":"http://gcide.gnu.org.ua/","wordnikUrl":"https://www.wordnik.com/words/ruby","exampleUses":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        the GNU version of the Collaborative International Dictionary of English.","sourceDictionary":"gcide","text":"The
+        color of a ruby; carmine red; a red tint.","sequence":"2.","citations":[{"source":"Shak.","cite":"The
+        natural <ex>ruby</ex> of your cheeks."}],"word":"ruby","attributionUrl":"http://gcide.gnu.org.ua/","wordnikUrl":"https://www.wordnik.com/words/ruby","exampleUses":[],"labels":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        the GNU version of the Collaborative International Dictionary of English.","sourceDictionary":"gcide","text":"That
+        which has the color of the ruby, as red wine. Hence, a red blain or carbuncle.","sequence":"3.","word":"ruby","attributionUrl":"http://gcide.gnu.org.ua/","wordnikUrl":"https://www.wordnik.com/words/ruby","citations":[],"exampleUses":[],"labels":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        the GNU version of the Collaborative International Dictionary of English.","sourceDictionary":"gcide","text":"See
+        <er>Agate</er>, n., 2.","sequence":"4.","labels":[{"text":"(Print.)","type":"fld"},{"text":"engraving","type":"mark"}],"word":"ruby","attributionUrl":"http://gcide.gnu.org.ua/","wordnikUrl":"https://www.wordnik.com/words/ruby","citations":[],"exampleUses":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        the GNU version of the Collaborative International Dictionary of English.","sourceDictionary":"gcide","text":"Any
+        species of South American humming birds of the genus Clytolæma. The males
+        have a ruby-colored throat or breast.","sequence":"5.","labels":[{"text":"(Zoöl.)","type":"fld"}],"word":"ruby","attributionUrl":"http://gcide.gnu.org.ua/","wordnikUrl":"https://www.wordnik.com/words/ruby","citations":[],"exampleUses":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        the GNU version of the Collaborative International Dictionary of English.","sourceDictionary":"gcide","text":"a
+        glassy substance of a red color and a variable composition, but always consisting
+        chiefly of the disulphide of arsenic; -- called also <altname>ruby sulphur</altname>.","labels":[{"text":"(Chem.)","type":"fld"}],"word":"ruby","attributionUrl":"http://gcide.gnu.org.ua/","wordnikUrl":"https://www.wordnik.com/words/ruby","citations":[],"exampleUses":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        the GNU version of the Collaborative International Dictionary of English.","sourceDictionary":"gcide","word":"ruby","attributionUrl":"http://gcide.gnu.org.ua/","wordnikUrl":"https://www.wordnik.com/words/ruby","citations":[],"exampleUses":[],"labels":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        the GNU version of the Collaborative International Dictionary of English.","sourceDictionary":"gcide","text":"zinc
+        sulphide; the mineral zinc blende or sphalerite.","labels":[{"text":"(Min.)","type":"fld"}],"word":"ruby","attributionUrl":"http://gcide.gnu.org.ua/","wordnikUrl":"https://www.wordnik.com/words/ruby","citations":[],"exampleUses":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        the GNU version of the Collaborative International Dictionary of English.","sourceDictionary":"gcide","text":"red
+        silver. See under <er>Red</er>.","labels":[{"text":"(Min.)","type":"fld"}],"word":"ruby","attributionUrl":"http://gcide.gnu.org.ua/","wordnikUrl":"https://www.wordnik.com/words/ruby","citations":[],"exampleUses":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        Wiktionary, Creative Commons Attribution/Share-Alike License.","sourceDictionary":"wiktionary","text":"A
+        clear, deep, <xref>red</xref> variety of <xref>corundum</xref>, valued as
+        a precious stone.","word":"ruby","attributionUrl":"http://creativecommons.org/licenses/by-sa/3.0/","wordnikUrl":"https://www.wordnik.com/words/ruby","citations":[],"exampleUses":[],"labels":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        Wiktionary, Creative Commons Attribution/Share-Alike License.","sourceDictionary":"wiktionary","text":"A
+        deep <xref>red</xref> <xref>colour</xref>.","word":"ruby","attributionUrl":"http://creativecommons.org/licenses/by-sa/3.0/","wordnikUrl":"https://www.wordnik.com/words/ruby","citations":[],"exampleUses":[],"labels":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        Wiktionary, Creative Commons Attribution/Share-Alike License.","sourceDictionary":"wiktionary","text":"Type
+        having a height of 5.5 <xref>points</xref>.","labels":[{"text":"typography","type":"field"},{"text":"UK","type":"region"}],"word":"ruby","attributionUrl":"http://creativecommons.org/licenses/by-sa/3.0/","wordnikUrl":"https://www.wordnik.com/words/ruby","citations":[],"exampleUses":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        Wiktionary, Creative Commons Attribution/Share-Alike License.","sourceDictionary":"wiktionary","text":"A
+        ruby hummer, a South American <xref>hummingbird</xref>, Clytolaema rubricauda.","word":"ruby","attributionUrl":"http://creativecommons.org/licenses/by-sa/3.0/","wordnikUrl":"https://www.wordnik.com/words/ruby","citations":[],"exampleUses":[],"labels":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        Wiktionary, Creative Commons Attribution/Share-Alike License.","sourceDictionary":"wiktionary","text":"A
+        red bird-of-paradise, Paradisaea rubra.","word":"ruby","attributionUrl":"http://creativecommons.org/licenses/by-sa/3.0/","wordnikUrl":"https://www.wordnik.com/words/ruby","citations":[],"exampleUses":[],"labels":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"adjective","attributionText":"from
+        Wiktionary, Creative Commons Attribution/Share-Alike License.","sourceDictionary":"wiktionary","text":"Of
+        a deep <xref>red</xref> colour (having any of numerous bright colours reminiscent
+        of the colour of blood or cherries or tomatoes).","word":"ruby","attributionUrl":"http://creativecommons.org/licenses/by-sa/3.0/","wordnikUrl":"https://www.wordnik.com/words/ruby","citations":[],"exampleUses":[],"labels":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"verb","attributionText":"from
+        Wiktionary, Creative Commons Attribution/Share-Alike License.","sourceDictionary":"wiktionary","text":"To
+        make <xref>red</xref>; to <xref>redden</xref>.","labels":[{"text":"transitive","type":"grammar"},{"text":"poetic","type":"usage"}],"word":"ruby","attributionUrl":"http://creativecommons.org/licenses/by-sa/3.0/","wordnikUrl":"https://www.wordnik.com/words/ruby","citations":[],"exampleUses":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        Wiktionary, Creative Commons Attribution/Share-Alike License.","sourceDictionary":"wiktionary","text":"A
+        pronunciation guide written above or beside Chinese or Japanese characters.","word":"ruby","attributionUrl":"http://creativecommons.org/licenses/by-sa/3.0/","wordnikUrl":"https://www.wordnik.com/words/ruby","citations":[],"exampleUses":[],"labels":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        WordNet 3.0 Copyright 2006 by Princeton University. All rights reserved.","sourceDictionary":"wordnet","text":"a
+        deep and vivid red color","word":"ruby","attributionUrl":"https://wordnet.princeton.edu/","wordnikUrl":"https://www.wordnik.com/words/ruby","citations":[],"exampleUses":[],"labels":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        WordNet 3.0 Copyright 2006 by Princeton University. All rights reserved.","sourceDictionary":"wordnet","text":"a
+        transparent deep red variety of corundum; used as a gemstone and in lasers","word":"ruby","attributionUrl":"https://wordnet.princeton.edu/","wordnikUrl":"https://www.wordnik.com/words/ruby","citations":[],"exampleUses":[],"labels":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"noun","attributionText":"from
+        WordNet 3.0 Copyright 2006 by Princeton University. All rights reserved.","sourceDictionary":"wordnet","text":"a
+        transparent piece of ruby that has been cut and polished and is valued as
+        a precious gem","word":"ruby","attributionUrl":"https://wordnet.princeton.edu/","wordnikUrl":"https://www.wordnik.com/words/ruby","citations":[],"exampleUses":[],"labels":[],"notes":[],"relatedWords":[],"textProns":[]},{"partOfSpeech":"adjective","attributionText":"from
+        WordNet 3.0 Copyright 2006 by Princeton University. All rights reserved.","sourceDictionary":"wordnet","text":"of
+        a color at the end of the color spectrum (next to orange); resembling the
+        color of blood or cherries or tomatoes or rubies","word":"ruby","attributionUrl":"https://wordnet.princeton.edu/","wordnikUrl":"https://www.wordnik.com/words/ruby","citations":[],"exampleUses":[],"labels":[],"notes":[],"relatedWords":[],"textProns":[]}]'
+  recorded_at: Fri, 13 Sep 2024 15:23:32 GMT
+recorded_with: VCR 6.3.1

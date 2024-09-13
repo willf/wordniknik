@@ -1,0 +1,57 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.wordnik.com/v4/word.json/ruby/scrabbleScore?api_key=API_KEY
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.11.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Fri, 13 Sep 2024 15:23:35 GMT
+      content-type:
+      - application/json; charset=utf-8
+      content-length:
+      - '11'
+      connection:
+      - keep-alive
+      server:
+      - nginx/1.24.0
+      x-ratelimit-remaining-minute:
+      - '494'
+      x-ratelimit-limit-minute:
+      - '500'
+      x-ratelimit-limit-hour:
+      - '15000'
+      ratelimit-reset:
+      - '25'
+      ratelimit-remaining:
+      - '494'
+      ratelimit-limit:
+      - '500'
+      x-ratelimit-remaining-hour:
+      - '14990'
+      cache-control:
+      - no-cache
+      accept-ranges:
+      - bytes
+      access-control-allow-origin:
+      - "*"
+      x-kong-upstream-latency:
+      - '8'
+      x-kong-proxy-latency:
+      - '1'
+      via:
+      - kong/3.4.1
+    body:
+      encoding: UTF-8
+      string: '{"value":9}'
+  recorded_at: Fri, 13 Sep 2024 15:23:35 GMT
+recorded_with: VCR 6.3.1

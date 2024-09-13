@@ -1,0 +1,64 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.wordnik.com/v4/word.json/ruby/audio?api_key=API_KEY&limit=50
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.11.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Fri, 13 Sep 2024 15:23:37 GMT
+      content-type:
+      - application/json; charset=utf-8
+      transfer-encoding:
+      - chunked
+      connection:
+      - keep-alive
+      server:
+      - nginx/1.24.0
+      x-ratelimit-remaining-hour:
+      - '14991'
+      x-ratelimit-limit-hour:
+      - '15000'
+      ratelimit-reset:
+      - '23'
+      ratelimit-remaining:
+      - '491'
+      ratelimit-limit:
+      - '500'
+      x-ratelimit-limit-minute:
+      - '500'
+      x-ratelimit-remaining-minute:
+      - '491'
+      cache-control:
+      - no-cache
+      vary:
+      - accept-encoding
+      content-encoding:
+      - gzip
+      access-control-allow-origin:
+      - "*"
+      x-kong-upstream-latency:
+      - '24'
+      x-kong-proxy-latency:
+      - '0'
+      via:
+      - kong/3.4.1
+    body:
+      encoding: UTF-8
+      string: '[{"commentCount":0,"createdBy":"ahd","createdAt":"2024-09-13T15:23:37.396+0000","id":51234,"word":"ruby","duration":0.94,"audioType":"pronunciation","attributionText":"from
+        The American Heritage® Dictionary of the English Language, 5th Edition","attributionUrl":"https://www.wordnik.com/words/ruby","fileUrl":"https://audio.wordnik.com/54215.mp3?Expires=1726241617&Key-Pair-Id=APKAIHXX6B6C37D2VKVA&Signature=Nx2Q6Mtt63trgfA-CofPGj-iXCnSrchDcrd3zXjsxqcSdw~GJdtSxTRdbr5S8g6soME-Paelatpieb6dN1WQBOPqVJ9qcHBP7x-uDUbLFNwiycmcZ4iJKbOYHBuQZLAjuy~Er9aRDSfbx2FXQGMvjjLcVvhFbnPJXfDuwRBZV8whg3mli1zlNNcmy7Tfe55JyJMxl-DIPtWufMeHD4Bl7So7MRDFVWUBQv46pfGvrysR8ECpdclQHOrXSz4qOR0DjsFzdS~G9UsIad17LkbwNkScEzwCRqbD~hWsAcghJafWeJz2vXV2cZDDV~uMuNJyD10H7Fyczz0YNkT7-vRIwg__"},{"commentCount":0,"createdBy":"macmillan","createdAt":"2024-09-13T15:23:37.401+0000","id":236224,"word":"ruby","duration":0.91,"audioType":"pronunciation","attributionText":"pronunciation
+        of ruby from Macmillan Dictionary -- free online dictionary and thesaurus","description":"See
+        more at https://www.macmillandictionary.com/dictionary/american/ruby","attributionUrl":"https://www.macmillandictionary.com/dictionary/american/ruby","fileUrl":"https://audio.wordnik.com/11437225.mp3?Expires=1726241617&Key-Pair-Id=APKAIHXX6B6C37D2VKVA&Signature=OrPQFEncI5PKugbNDpG2gUEAcO3ByrPl6EPscnsKvuX89HB6LARFtBk2l7tZVn-5IfJFGl0xZ80z3OkyHPgWC5jzaVeSbNFql8FpCBSpDq7L64Lj0vPfMvi7D9doltfEekg5TzIyl8KCLI8xr56cwejBbu~Q5tzmhLSgTCU-jd9XQd2KoSnEKYea-jgPEWSNeU6TE0lN~ZNJvubeihN76qgnosabMw22GhmNE4PSV6CxqCfFXrpodsSOCIWADPM17C35NchuRf-~mul69trPGsZZtVceWKalCZq-qbFoX7Nmj0M23j4lSjzhbLxviLw-3nTL1MPtAD3AV3UnGVqHJw__"},{"commentCount":0,"createdBy":"macmillan","createdAt":"2024-09-13T15:23:37.407+0000","id":236223,"word":"ruby","duration":1.01,"audioType":"pronunciation","attributionText":"pronunciation
+        of ruby from Macmillan Dictionary -- free online dictionary and thesaurus","description":"See
+        more at https://www.macmillandictionary.com/dictionary/american/ruby","attributionUrl":"https://www.macmillandictionary.com/dictionary/american/ruby","fileUrl":"https://audio.wordnik.com/11437224.mp3?Expires=1726241617&Key-Pair-Id=APKAIHXX6B6C37D2VKVA&Signature=NANwhPbHUpvmPXywMAiZSQ4vXriKtn2RolaElFeE~pQVKP0WsN0yBT8LY988Fflt5lGSYse8fbmGnITjFu6RoI2FXT8eBSNFkr~KD~GeJP6IQsDn6GlDOGmDuMlzDzh1lO~GDVUtnaPN8gHZVu30~xF9t6SM-D0qjstSC~gf15HcLLnGzo2B~D3FTqEbvEdGFtMA6rkguSjuI-b4hjz5AhvNnKIzVbRQlwrMW5yFf5t9U1NQ1uB-fmGgNG54hr-lIW8S8N4zkqQNGkG2plGTE7BktvO1LNT-8cuqUnYzi93Y1A-vNrsM1svRSqUmDxVLQXgL-RGJFjtmKBSpdQ7zUQ__"}]'
+  recorded_at: Fri, 13 Sep 2024 15:23:37 GMT
+recorded_with: VCR 6.3.1

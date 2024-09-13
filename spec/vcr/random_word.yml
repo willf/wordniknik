@@ -1,0 +1,57 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.wordnik.com/v4/words.json/randomWord?api_key=API_KEY&hasDictionaryDef=true
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.11.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Fri, 13 Sep 2024 15:23:35 GMT
+      content-type:
+      - application/json; charset=utf-8
+      transfer-encoding:
+      - chunked
+      connection:
+      - keep-alive
+      server:
+      - nginx/1.24.0
+      x-ratelimit-remaining-hour:
+      - '14994'
+      x-ratelimit-limit-hour:
+      - '15000'
+      ratelimit-reset:
+      - '25'
+      ratelimit-remaining:
+      - '494'
+      ratelimit-limit:
+      - '500'
+      x-ratelimit-limit-minute:
+      - '500'
+      x-ratelimit-remaining-minute:
+      - '494'
+      cache-control:
+      - no-cache
+      access-control-allow-origin:
+      - "*"
+      x-kong-upstream-latency:
+      - '147'
+      x-kong-proxy-latency:
+      - '1'
+      via:
+      - kong/3.4.1
+      content-encoding:
+      - gzip
+    body:
+      encoding: UTF-8
+      string: '{"word":"filtrable","id":0}'
+  recorded_at: Fri, 13 Sep 2024 15:23:35 GMT
+recorded_with: VCR 6.3.1
