@@ -4,6 +4,7 @@ require 'yaml'
 
 module Wordniknik
   WORDNIK_CONFIG_FILE = '.wordnik.yml'
+  # Wordnik API configuration class
   class Configuration
     attr_accessor :api_key, :api_host, :api_port, :api_version, :connection
 
@@ -20,7 +21,7 @@ module Wordniknik
       @api_version = loaded['api_version'] || defaults[:api_version]
       return unless @api_key.nil?
 
-      raise "No API key found. Please set it in the environment variable WORDNIK_API_KEY or in a #{WORDNIK_CONFIG_FILE} file."
+      raise "No API key found. Please set WORDNIK_API_KEY or in a #{WORDNIK_CONFIG_FILE} file."
     end
 
     def look_for_config_file

@@ -3,6 +3,7 @@
 # deep transform keys of a hash to symbols in snake case
 require 'time'
 
+# Wordniknik module
 module Wordniknik
   module_function
 

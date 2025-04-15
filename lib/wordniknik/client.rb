@@ -3,9 +3,14 @@
 require 'json'
 require 'net/http'
 
+# Wornkiknik is a Ruby client for the Wordnik API.
 module Wordniknik
+  # Error class for Wordniknik.
+  # This class is used to handle errors that occur during API calls.
   class Error < StandardError; end
 
+  # Client class for Wordniknik.
+  # This class is used to interact with the Wordnik API.
   class Client
     attr_accessor :configuration
 
@@ -116,7 +121,7 @@ module Wordniknik
 
       if @clean_up && is_404?(results)
         []
-      elsif @clean_up && is_404?(results)
+      elsif is_404?(results)
         results[:frequency]
       else
         results
@@ -223,8 +228,8 @@ module Wordniknik
 
       if @clean_up && is_404?(results)
         {}
-      elsif @clean_up && results.is_a?(Hash)
-        results
+      elsif is_404?(results)
+        raise Wordniknik::Error, "No example found for word: #{word}"
       else
         results
       end
@@ -420,8 +425,10 @@ module Wordniknik
       result.is_a?(Hash) && result[:status_code] == 404
     end
 
+    # rubocop:disable Naming/PredicateName
     def is_error?(result)
       result.is_a?(Hash) && result[:status_code] && result[:status_code] != 200 && result[:status_code] != 404
     end
+    # rubocop:enable Naming/PredicateName
   end
 end
