@@ -58,6 +58,9 @@ tags
 # Used by RuboCop. Remote config files pulled in from inherit_from directive.
 # .rubocop-https?--*
 
+.ruby-version
+.rspec_status
+
 # Other systems
 .vscode/
 .DS_Store
