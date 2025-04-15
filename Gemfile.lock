@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    wordniknik (1.0.0)
+    wordniknik (1.0.1)
       json
 
 GEM
